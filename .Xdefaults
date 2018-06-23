@@ -1,5 +1,6 @@
 !--------------------xdefauls
-URxvt.font: xft:ubuntu mono:pixelsize=12
+!URxvt.font: xft:ubuntu mono:pixelsize=12
+URxvt*font:xft:DejaVu\ Sans\ Mono:pixelsize=10:antialias=true,xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=10:antialias=true
 urxvt*termName: rxvt
 urxvt*scrollBar: false
 urxvt*matcher.button: 1
@@ -16,38 +17,33 @@ URxvt*fading: 0
 URxvt*tintColor: #ffffff
 URxvt*shading: 0
 URxvt*inheritPixmap: False
-URxvt*background: #4B414C
-URxvt*foreground: #efefef
-! --- standard colors ---
-! black
-URxvt*color0: #7f94a0
-! bright_black
-URxvt*color8: #7f94a0
-! red
-URxvt*color1: #818995
-! bright_red
-URxvt*color9: #818995
-! green
-URxvt*color2: #A5BE9E
-! bright_green
-URxvt*color10: #A5BE9E
-! yellow
-URxvt*color3: #afad84
-! bright_yellow
-URxvt*color11: #afad84
-! blue
-URxvt*color4: #afad84
-! bright_blue
-URxvt*color12: #afad84
-! magenta
-URxvt*color5: #efefef
-! bright_magenta
-URxvt*color13: #efefef
-! cyan
-URxvt*color6: #6c7570
-! bright_cyan
-URxvt*color14: #6c7570
-! white
-URxvt*color7: #ada38b
-! bright_white
-URxvt*color15: #efefef
+
+
+urxvt.foreground: 	#E8DFD6
+urxvt.background: 	#021B21
+urxvt.cursorColor:  #81848c
+urxvt.color0:       #032C36
+urxvt.color8:       #065F73
+urxvt.color1:       #C2454E
+urxvt.color9:       #EF5847
+urxvt.color2:       #7CBF9E
+urxvt.color10:      #A2D9B1
+urxvt.color3:       #8A7A63
+urxvt.color11:      #BEB090
+urxvt.color4:       #2E3340
+urxvt.color12:      #61778D
+urxvt.color5:       #FF5879
+urxvt.color13:      #FF99A1
+urxvt.color6:       #44B5B1
+urxvt.color14:      #9ED9D8
+urxvt.color7:       #F2F1B9
+urxvt.color15:      #F6F6C9
+
+
+!! URxvt extentions
+URxvt.perl-ext-common: default,matcheri,url-select
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
